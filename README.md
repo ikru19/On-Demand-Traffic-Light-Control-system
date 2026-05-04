@@ -1,25 +1,21 @@
 # 🚦 On-Demand Traffic Light Control System (ATmega32)
 
 ## 📌 Description
-
 This project implements a traffic light control system using ATmega32 microcontroller with pedestrian interrupt (INT0).
 
 ## ⚙️ Features
-
 * Normal traffic sequence (Green → Yellow → Red)
 * Pedestrian button interrupt
 * Assembly language implementation
 * Simulated using SimulIDE
 
 ## 🔌 Components
-
 * ATmega32
 * LEDs (Red, Yellow, Green)
 * Resistors (330Ω)
 * micro controller board
 
 ## 💻 Software
-
 * Microchip Studio
 * AVRdudess
 * SimulIDE
@@ -32,7 +28,12 @@ This project implements a traffic light control system using ATmega32 microcontr
 <img width="1600" height="812" alt="2" src="https://github.com/user-attachments/assets/f332d190-aa5b-470d-94cb-f61199b895b1" />
 <img width="1600" height="772" alt="3" src="https://github.com/user-attachments/assets/47c0c9b5-95c3-47a0-9abc-a6a233e9d51b" />
 
-## 👥 Group Members
+## ⚡ Working Principle
+- Normally cars get GREEN signal
+- When pedestrian button is pressed, interrupt triggers
+- Cars stop (RED) and pedestrian gets GREEN
+- After delay, system returns to normal cycle
 
+## 👥 Group Members
 * Ikra Islam (me)
 * Mahjabin Alif Lamiya
