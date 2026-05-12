@@ -34,6 +34,4 @@ This project implements a traffic light control system using ATmega32 microcontr
 - Cars stop (RED) and pedestrian gets GREEN
 - After delay, system returns to normal cycle
 
-## 👥 Group Members
-* Ikra Islam (me)
-* Mahjabin Alif Lamiya
+* Ikra Islam 
